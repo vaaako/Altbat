@@ -1,0 +1,17 @@
+(def {var outra} 1 1)
+
+(def {calc-amor} (\{x y} {
+		(if (== x y) {
+			print "Eu amo morcegos"
+
+			(if (== (+ x y) 2) {
+				print "Eu amo morcegos em dobro"
+			} {})
+		} {
+			print "Não amo" // Mentira isso muita mentira fake news
+		})
+	})
+)
+
+(calc-amor var outra)
+
