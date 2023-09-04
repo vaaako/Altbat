@@ -1,17 +1,16 @@
 # Altbat Programming Language
 
 The Altbat programming language created for my personal learning purposes in the C programming language.
- Inspired by the simplicity of Lisp, Altbat was designed to allow me, the developer, to better understand
- the fundamentals of programming in C.
+ Inspired by the simplicity of Lisp.
 
 ## Features
 
 Altbat has the following features:
-- **Arithmetic Operators**
-- **Ternary Operators**
-- **Variables**
-- **Functions**
-- **Conditional Structures**
+- Arithmetic Operators
+- Ternary Operators
+- Variables
+- Functions
+- Conditional Structures
 
 ## Usage Example
 Here's a simple example in Altbat
@@ -19,7 +18,7 @@ Here's a simple example in Altbat
 ```lisp
 (def {a b} 2 1) // Multi Vars declaration
 
-(def {calc-amor} (\{x y} { // Defining function
+(def {calc-bat} (\{x y} { // Defining function
         (if (== (- x 1) y) { // If x-1 equals y
             print "I love bats"
 
